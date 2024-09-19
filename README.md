@@ -108,7 +108,7 @@ Para el desarrollo de la prueba teórica, tendrás que escribir tus respuestas e
 
   2.2. ¿Qué mecanismos de seguridad incluirías en la aplicación para garantizar la protección del acceso a los datos?
 
-- RTA:
+- RTA: con metodos de autencicacion, los cuales pueden ser basados en certificados, biometrica, con tokens de consulta a backend para ingreso a sericios, con notificaciones push que lleguen al dispositivo para poder ingresar, de esta forma tambien se previenen ataques.
 
   2.3. ¿Qué estrategia de escalabilidad recomendarías para la aplicación considerando que el crecimiento proyectado será de 1,000,000 de clientes por año?
 
@@ -116,7 +116,7 @@ Para el desarrollo de la prueba teórica, tendrás que escribir tus respuestas e
 
   2.4. ¿Qué patrón o patrones de diseño recomendarías para esta solución y cómo se implementarían? (Justifique)
 
-- RTA:
+- RTA: para el backend seria muy bueno el de micorservicios, ya que al ser demasiados usuarios realizando la misma peticion, entonces por medio de esta se puede dividir en en peticiones mas especificas y pequeñas que no tenga una gran carga a la base de datos, y en el front, aunque no estoy seguro de que sea un patron de diseño como tal, se pueden realizar los procesos de SOLID, el cual nos indica en que debemos de dividir compententes en mas pequeños, y que sean de uso unico, para que una funcion no cumpla dos trabajos diferentes, de esta forma haciendolo mas escalable y generico.
 
   2.5. ¿Qué recomendaciones harías para optimizar el manejo y la persistencia de datos de la aplicación, teniendo en cuenta que esta aplicación tiene una alta transaccionalidad?
 
