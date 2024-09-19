@@ -1,0 +1,47 @@
+.containerApp {
+  display: grid;
+  grid-template-columns: 120px auto;
+  grid-template-rows: 80px auto;
+  grid-template-areas: "menu title" "menu bodyApp";
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.menuApp {
+  display: grid;
+  grid-area: menu;
+  background: #1a4870;
+  justify-items: center;
+  align-content: center;
+  color: #ccc;
+}
+
+.titleApp {
+  display: grid;
+  grid-area: title;
+  background: #5b99c2;
+  align-items: center;
+  justify-content: center;
+  color: #f2f2f2;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.bodyApp {
+  display: grid;
+  grid-area: bodyApp;
+}
+
+.labelBtnCls {
+  border: 2px dotted #fff;
+  padding: 5pt 5pt 5pt 5pt;
+  margin-top: 15px;
+  width: 75%;
+  display: grid;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: larger;
+}

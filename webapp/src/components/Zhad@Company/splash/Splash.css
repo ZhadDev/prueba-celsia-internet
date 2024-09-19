@@ -1,0 +1,22 @@
+.container-splash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  font-size: 5rem;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  font-family: math;
+  color: blueviolet;
+  background: linear-gradient(
+    317deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(88, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  opacity: 0.5;
+  z-index: 1;
+}
